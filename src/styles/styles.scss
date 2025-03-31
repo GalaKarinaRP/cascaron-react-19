@@ -1,0 +1,44 @@
+@use "bootstrap/dist/css/bootstrap.min.css";
+@use "./base/fonts_styles.scss";
+@use "./base/base";
+@use "./components/sidebar.scss";
+
+@font-face {
+  font-family: "Alverata";
+  src: url("../assets/fonts/AlverataLt.woff2") format("woff2"),
+    url("../assets/fonts/AlverataLt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Praxis-Next";
+  src: url("../assets/fonts/PraxisNext-Regular.woff2") format("woff2"),
+    url("../assets/fonts/PraxisNext-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Alverata", sans-serif !important;
+}
+
+.active {
+  color: rgb(207, 6, 34) !important;
+}
+.captcha-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente si es necesario */
+  height: 100px; /* Ajusta la altura según sea necesario */
+}

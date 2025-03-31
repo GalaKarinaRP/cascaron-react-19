@@ -1,0 +1,19 @@
+/* perfil del alumno */
+
+.container-perfil{
+    position: relative;
+    width: auto;
+    height: 129px;
+    
+    /* Neutros/0 */
+    background: #FFFFFF;
+    /* Shadow 2
+    
+    Tarjetas largas
+    */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
